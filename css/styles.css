@@ -30,6 +30,7 @@ h2 {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 h3 {
   font-family: Roboto;
@@ -48,6 +49,9 @@ ul {
 .third-head {
   color: #2e2f42;
   margin-bottom: 8px;
+}
+a{
+  text-decoration: none;
 }
 /* Header */
 .container {
@@ -204,6 +208,7 @@ nav .menu {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 /* Second Section */
 .ss-paragraph {
@@ -267,7 +272,6 @@ nav .menu {
 }
 .third-section-second-header {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
   margin-bottom: 72px;
 }
 .third-section-ul {
@@ -316,6 +320,9 @@ nav .menu {
 .icon {
   fill: #f4f4fd;
 }
+.section-paragraph{
+  margin-bottom: 8px;
+}
 /* Fourth Section */
 .fourth-section {
   padding-top: 120px;
@@ -342,7 +349,6 @@ nav .menu {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fourth-section-li:hover {
-  border: 1px solid #f4f4fd;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
